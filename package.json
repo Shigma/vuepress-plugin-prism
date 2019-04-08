@@ -1,0 +1,45 @@
+{
+  "name": "vuepress-plugin-prism",
+  "version": "1.0.0-alpha.0",
+  "main": "src/index.js",
+  "description": "A VuePress plugin for syntax highlighting.",
+  "author": "Shigma <1700011071@pku.edu.cn>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuepress/vuepress-plugin-prism.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vuepress/vuepress-plugin-prism/issues"
+  },
+  "homepage": "https://vuepress.github.io/plugins/prism/",
+  "scripts": {
+    "lint": "eslint .",
+    "jest": "jest --config jest.config.js .*\\.spec\\.js$",
+    "test": "npm run lint & npm run jest",
+    "build": "vuepress build __tests__/docs"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.3.2",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "jest": "^24.5.0",
+    "jest-serializer-html": "^6.0.0",
+    "vuepress": "^1.0.0-alpha.47"
+  },
+  "dependencies": {
+    "prismjs": "^1.16.0"
+  },
+  "keywords": [
+    "vuepress",
+    "plugin",
+    "prism",
+    "highlight",
+    "code"
+  ]
+}
